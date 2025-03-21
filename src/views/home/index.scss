@@ -1,0 +1,14 @@
+.pda-home-page-tabs {
+  height: 100%;
+
+  .adm-tabs-header {
+    background-color: #fff;
+    height: 38px;
+  }
+
+  .adm-tabs-content {
+    height: calc(100% - 38px);
+    padding: 0;
+    overflow: auto;
+  }
+}

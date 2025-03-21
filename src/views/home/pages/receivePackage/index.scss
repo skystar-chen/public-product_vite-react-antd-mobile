@@ -1,0 +1,65 @@
+.pda-enter-warehouse-receive-package-page {
+  height: 100%;
+  padding: 0.32rem 0;
+  display: flex;
+  flex-direction: column;
+
+  &-header {
+    padding: 14px;
+    margin-bottom: 0.32rem;
+    background-color: #fff;
+
+    &-input {}
+  }
+
+  &-body {
+    height: calc(100% - 58px);
+    padding: 14px;
+    background-color: #fff;
+
+    &-table-head,
+    &-table-body {
+      &-tr {
+        display: flex;
+        border-bottom: 1px solid #e5e5e5;
+      }
+
+      &-td {
+        width: 37%;
+        padding: 10px;
+        color: #000;
+        font-size: 12px;
+      }
+
+      &-td:nth-child(2) {
+        width: 26%;
+      }
+    }
+
+    &-table-head {
+      &-tr {
+        background-color: #f2f3f5;
+      }
+
+      &-td {
+        font-weight: bold;
+      }
+    }
+
+    &-table-body {
+      overflow: auto;
+      height: calc(100% - 40px);
+
+      &-td:not(:last-child) {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      &-td-time {
+        font-size: 10px;
+        white-space: nowrap;
+      }
+    }
+  }
+}

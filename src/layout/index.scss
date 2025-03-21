@@ -1,0 +1,11 @@
+.pda-layout-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .pda-layout-body {
+    flex: 1;
+    background-color: #f2f3f5;
+    height: calc(100vh - 50px);
+  }
+}

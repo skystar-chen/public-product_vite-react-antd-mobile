@@ -1,0 +1,60 @@
+.pda-home-order-page {
+  &-row {
+    &-top {
+      padding: 6px 14px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+
+      &-sign {
+        width: 2.5px;
+        height: 14px;
+        background-color: var(--active-title-color);
+        margin-right: 4px;
+      }
+
+      &-title {
+        font-size: 12px;
+        font-weight: bolder;
+      }
+    }
+
+    &-body {
+      background-color: #fff;
+      padding: 10px 14px;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+
+      &-item {
+        padding: 0 12px;
+        margin-top: 15px;
+        width: 33.33%;
+
+        &:nth-child(3n + 1) {
+          padding-left: 0;
+        }
+
+        &:nth-child(3n) {
+          padding-right: 0;
+        }
+
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3) {
+          margin-top: 0;
+        }
+
+        &-img {
+          text-align: center;
+        }
+
+        &-label {
+          white-space: nowrap;
+          text-align: center;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

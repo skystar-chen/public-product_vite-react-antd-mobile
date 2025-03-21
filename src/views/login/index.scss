@@ -1,0 +1,43 @@
+.pda-login-page {
+  padding-top: 10vw;
+  display: flex;
+  justify-content: center;
+
+  &-content {
+    width: 60vw;
+  }
+
+  &-item {
+    margin-bottom: 40px;
+
+    &-input-box {
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 0 10px;
+      height: 40px;
+
+      .adm-input {
+        height: 100%;
+      }
+    }
+
+    & > button {
+      height: 50px;
+    }
+  }
+
+  &-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 44px;
+  }
+
+  &-password {
+    display: flex;
+  }
+
+  &-eye-icon-box {
+    display: flex;
+    align-items: center;
+  }
+}

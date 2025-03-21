@@ -1,0 +1,16 @@
+.pda-enter-input {
+  width: 100%;
+  height: 30px;
+  padding: 6px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  outline: none;
+  background-color: #fff;
+  color: #333;
+  caret-color: #333;
+
+  &-readonly {
+    background-color: #f2f3f5;
+    border-color: #f2f3f5;
+  }
+}

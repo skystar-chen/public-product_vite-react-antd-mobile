@@ -1,0 +1,34 @@
+.pda-personal-center-page {
+  padding: 0.32rem;
+
+  &-user-card {
+    padding: 18px;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    border-radius: 0.21333rem;
+    margin-bottom: 0.32rem;
+
+    &-item {
+      padding: 14px;
+      align-items: center;
+    }
+
+    &-icon {
+      margin-right: 5px;
+    }
+
+    &-label {
+      font-size: 12px;
+    }
+
+    &-arrow {
+      position: absolute;
+      right: 14px;
+    }
+
+    &-left {
+      margin-right: 10px;
+    }
+  }
+}

@@ -94,7 +94,7 @@ const Login: FC = () => {
             shape='rounded'
             block
             loading={loginLoading}
-            loadingText='登录中...'
+            loadingText='登录中'
             onClick={handleClickLogin}
           >
             登录
